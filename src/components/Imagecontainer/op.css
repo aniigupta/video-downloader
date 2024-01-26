@@ -6,6 +6,10 @@
   }
   
   .image-box {
+    cursor: pointer;
+    border: none;
+    border-radius: 35px;
+    background-color: rgb(255, 255, 255);
     flex: 1;
     margin: 5px 10px;
   }
@@ -13,6 +17,6 @@
   img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 35px;
   }
   
