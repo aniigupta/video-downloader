@@ -1,6 +1,9 @@
-import React from 'react';
-import './Card.css';
+import React from "react";
+import "./Card.css";
 
+function change() {
+  const c = () => {};
+}
 const Card = () => {
   return (
     <div className="card">
@@ -10,7 +13,11 @@ const Card = () => {
         <button className="button">Download Audio</button>
       </div>
       <div className="search-container">
-        <input type="text" placeholder="Paste video link here...." className="search-bar" />
+        <input
+          type="text"
+          placeholder="Paste video link here...."
+          className="search-bar"
+        />
         <button className="download-button">Download</button>
       </div>
     </div>

@@ -1,78 +1,80 @@
 .card {
-    width: 100%;
-    max-width: 400px;
-    padding: 190px;
-    /* border: 1px solid #000000; */
-    background-color: rgb(207, 203, 198);
-    border-radius: 10px;
-    margin: 20px auto;
+  width: 100%;
+  max-height: 200px;
+  max-width: 400px;
+  padding: 190px;
+  background-color: rgb(240, 238, 235);
+  border-radius: 20px;
+  margin: 10px auto;
+}
+
+.title {
+  font-size: 1.8em;
+  margin-bottom:4.0em;
+  background-color: rgb(185, 173, 161);
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px;
+}
+
+.button {
+  margin-bottom: 5px;
+  background-color: #0a78ec;
+  color: #fff;
+  padding: 20px;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar {
+  margin-bottom: 5px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.download-button {
+  background-color: #3dba5a;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  
-  .title {
-    font-size: 1.8em;
-    margin-bottom: 100px;
-  }
-  
+
   .button-container {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
+    flex-direction: row;
   }
-  
+
   .button {
-    margin-bottom: 5px;
-    background-color: #007bff;
-    color: #fff;
-    padding: 20px;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
+    margin-bottom: 0;
+    margin-right: 5px;
   }
-  
+
   .search-container {
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
-  
+
   .search-bar {
-    margin-bottom: 5px;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    margin-bottom: 0;
+    margin-right: 5px;
   }
-  
-  .download-button {
-    background-color: #3dba5a;
-    color: #fff;
-    padding: 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  @media (min-width: 768px) {
-    .card {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .button-container {
-      flex-direction: row;
-    }
-  
-    .button {
-      margin-bottom: 0;
-      margin-right: 5px;
-    }
-  
-    .search-container {
-      flex-direction: row;
-    }
-  
-    .search-bar {
-      margin-bottom: 0;
-      margin-right: 5px;
-    }
-  }
-  
+}
