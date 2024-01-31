@@ -1,9 +1,7 @@
 import React from "react";
 import "./Card.css";
 
-function change() {
-  const c = () => {};
-}
+
 const Card = () => {
   return (
     <div className="card">
