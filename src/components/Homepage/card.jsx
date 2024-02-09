@@ -16,7 +16,7 @@ const Card = () => {
           placeholder="Paste video link here...."
           className="search-bar"
         />
-        <button className="download-button">Download</button>
+        <button className="download-button">Search</button>
       </div>
     </div>
   );
