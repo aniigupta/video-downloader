@@ -8,13 +8,13 @@ import X from "../Assets/x.png";
 const ImageContainer = () => {
   return (
     <div className="image-container">
-      <button className="image-box">
+      <button href={""} className="image-box">
         <img src={Y} alt="YOUTUBE" />
       </button>
-      <button className="image-box">
+      <button  href={"./Instagrampage"}className="image-box">
         <img src={I} alt="INSTAGRAM" />
       </button>
-      <button className="image-box">
+      <button href={"./Twitterpage"} className="image-box">
         <img src={X} alt="TWITTER" />
       </button>
     </div>
