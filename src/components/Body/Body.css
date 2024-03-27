@@ -1,0 +1,108 @@
+.body-container{
+    width: 100%;
+    /* background-color: red; */
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    padding: 10px;
+  }
+  
+  .image-box {
+    cursor: pointer;
+    border: none;
+    border-radius: 35px;
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    margin: 5px 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 35px;
+  }
+
+  .card {
+    width: 100%;
+    max-height: 200px;
+    max-width: 400px;
+    padding: 190px;
+    background-color: rgb(240, 238, 235);
+    border-radius: 20px;
+    margin: 10px auto;
+  }
+  
+  .title {
+    font-size: 1.8em;
+    margin-bottom:4.0em;
+    background-color: rgb(185, 173, 161);
+    padding: 3px;
+    border-radius: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+  }
+  
+  .button {
+    margin-bottom: 5px;
+    background-color: #0a78ec;
+    color: #fff;
+    padding: 20px;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+  }
+  
+  .search-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .search-bar {
+    margin-bottom: 5px;
+    padding: 15px;
+    border: 5px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .download-button {
+    background-color: #3dba5a;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  @media (min-width: 768px) {
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .button-container {
+      flex-direction: row;
+    }
+  
+    .button {
+      margin-bottom: 0;
+      margin-right: 5px;
+    }
+  
+    .search-container {
+      flex-direction: row;
+    }
+  
+    .search-bar {
+      margin-bottom: 0;
+      margin-right: 5px;
+    }
+  }
+  
