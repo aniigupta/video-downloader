@@ -1,7 +1,4 @@
 import React, { useState } from "react";
-// import Y from '../../assets/youtube.png'
-// import I from '../../assets/insta.png'
-// import X from '../../assets/x.png'
 
 import "./Body.css"
 const Body = () => {
@@ -46,9 +43,9 @@ const Body = () => {
           placeholder="Paste video link here...."
           className="search-bar"
         />
-        <button className="download-button" >Search</button>
+        <button className="download-button">Search</button>
       </div>
-      <button onClick={()=>setVisibleButton(true)}>Check Visible</button>
+      {/* <button onClick={()=>setVisibleButton(true)}>Check Visible</button> */}
       <div className="button-container" style={{display:visibleButton?'':'none'}}>
         <button className="button">Download Video</button>
         <button className="button">Download Audio</button>
